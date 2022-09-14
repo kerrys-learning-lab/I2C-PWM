@@ -15,8 +15,8 @@ jobs:
       credentials:
         username: ${{ secrets.KERRYS_LEARNING_LAB_ACTOR }}
         password: ${{ secrets.KERRYS_LEARNING_LAB_TOKEN }}
-      volumes:
-        - ${{ github.workspace }}:/workspace
+      # volumes:
+      #   - ${{ github.workspace }}:/workspace
 
     permissions:
       contents: read
