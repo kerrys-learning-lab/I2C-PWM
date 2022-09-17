@@ -4,7 +4,7 @@ on: [push, workflow_dispatch]
 
 jobs:
   library-workflow:
-    uses: kerrys-learning-lab/.github/.github/workflows/ros2-library.workflow.yml@ros2-library-initial-development
+    uses: kerrys-learning-lab/.github/.github/workflows/ros2-library.workflow.yml@main
     with:
       library_name: i2c_pwm
     secrets:
