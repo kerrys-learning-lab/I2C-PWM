@@ -3,9 +3,9 @@
 <package format="3">
   <name>i2c_pwm</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>I2C pulse-width modulation controller module</description>
   <maintainer email="kerry.t.johnson@gmail.com">vscode</maintainer>
-  <license>TODO: License declaration</license>
+  <license>GNU Lesser General Public License Version 3</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
